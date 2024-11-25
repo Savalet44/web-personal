@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1, h2 {
+    color: #0056b3;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    margin: 20px 0 10px;
+    font-size: 1.8rem;
+}
+
+/* Header Section */
+.hero {
+    background: linear-gradient(to right, #4e5e70, #9ba6b1);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.hero p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+}
+
+/* Navbar */
+.navbar {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+.section {
+    padding: 20px 0;
+}
+
+.section-alt {
+    background: #f9f9f9;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
